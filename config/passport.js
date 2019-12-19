@@ -4,7 +4,7 @@ const Model = require('../www/models/model')();
 const console = require('../log');
 const opts = {};
 
-opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
+opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken(); // Authentication header with Bearer Scheme
 opts.secretOrKey = "secret";
 
 module.exports = passport => {

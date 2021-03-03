@@ -27,7 +27,7 @@
     "passport-jwt": "4.0.0",
     "path": "0.12.7",
     "pg": "7.14.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "shelljs": "0.8.3",
     "supertest": "4.0.2",
     "validator": "12.1.0",
